@@ -24,7 +24,7 @@ public class UserService {
     public UserService() {
         var user1 =  new User();
         user1.setFullName("Luke Skywalker");
-        user1.setWhatsApp("123454654654");
+        user1.setWhatsApp("+1 (234) 546-4654");
         user1.setEmail("foo@test.com");
         user1.setId(UUID.randomUUID());
         
@@ -32,7 +32,7 @@ public class UserService {
 
         var user2 =  new User();
         user2.setFullName("Obiwan Kenobi");
-        user2.setWhatsApp("8295989363");
+        user2.setWhatsApp("+92 (829) 598-9363");
         user2.setEmail("obi@test.com");
         user2.setId(UUID.randomUUID());
         
