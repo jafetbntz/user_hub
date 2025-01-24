@@ -72,6 +72,10 @@ public class CamelRoute extends RouteBuilder {
         
     };
 
+    public Processor getUserProcessor() {
+        return userProcessor;
+    }
+
     @Override
     public void configure() throws Exception {
 
